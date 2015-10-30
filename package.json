@@ -1,0 +1,32 @@
+{
+  "name": "Zombies",
+  "version": "0.1.0",
+  "description": "A game",
+  "author": "Andreas McDermott <andreas.mcdermott@gmail.com>",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andreasmcdermott/zombies"
+  },
+  "keywords": [
+    "zombies"
+  ],
+  "dependencies": {
+    "body-parser": "1.12.4",
+    "client-sessions": "0.7.0",
+    "express.io": "1.1.13",
+    "mongojs": "0.18.2"
+  },
+  "devDependencies": {
+    "browser-sync": "2.7.1",
+    "browserify": "10.2.0",
+    "gulp": "3.8.11",
+    "gulp-ruby-sass": "1.0.5",
+    "gulp-sourcemaps": "1.5.2",
+    "gulp-uglify": "1.2.0",
+    "gulp-util": "3.0.4",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.1.0"
+  },
+  "license": ""
+}
